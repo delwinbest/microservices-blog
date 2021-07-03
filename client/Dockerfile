@@ -1,5 +1,8 @@
 FROM node:alpine
 
+# Bug to enable docker builds
+ENV CI=true
+
 WORKDIR /app
 
 COPY package.json ./

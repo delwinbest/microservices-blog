@@ -14,7 +14,7 @@ spec:
    spec:
     containers:
      - name: comments
-       image: delwinbest/comments
+       image: delwinrbest/comments
 ---
 apiVersion: v1
 kind: Service

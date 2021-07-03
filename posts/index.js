@@ -20,6 +20,7 @@ app.post("/posts", async (req, res) => {
   posts[id] = {
     id,
     title,
+    comments: [],
   };
 
   // Send event to event bus

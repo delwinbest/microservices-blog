@@ -8,7 +8,7 @@ const PostCreate = () => {
     event.preventDefault();
 
     await axios
-      .post("http://posts-srv:4000/posts", {
+      .post("http://posts.delwinbest.com/posts", {
         title,
       })
       .catch((err) => {

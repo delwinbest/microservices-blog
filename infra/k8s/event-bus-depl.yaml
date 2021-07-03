@@ -14,7 +14,7 @@ spec:
    spec:
     containers:
      - name: event-bus
-       image: delwinbest/event-bus
+       image: delwinrbest/event-bus
 ---
 apiVersion: v1
 kind: Service
